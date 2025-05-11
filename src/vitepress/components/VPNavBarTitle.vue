@@ -1,18 +1,18 @@
 <template>
   <a class="VPNavBarTitle" href="/">
-    <slot name="navbar-title">
-      <svg class="logo" viewBox="0 0 128 128" width="24" height="24">
-        <path
-          fill="#42b883"
-          d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z"
-        />
-        <path
-          fill="#35495e"
-          d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z"
-        />
-      </svg>
-      <span class="text">Vue.js</span>
-    </slot>
+    <div class="logo" data-v-3472bb28="">
+      <svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1160 150" enable-background="new 0 0 1160 150" xml:space="preserve" data-v-3472bb28=""><g id="Fond" data-v-3472bb28=""></g><g id="Logo" data-v-3472bb28=""><g data-v-3472bb28=""><path fill="var(--color-primary)" d="M0,75.1C0,122.79,22.81,148,65.97,148H123v-32H65.97C41.55,116,32,104.27,32,75c0-29.41,9.55-41,33.97-41
+              H123V2H65.97C22.81,2,0,27.28,0,75.1z" data-v-3472bb28=""></path><path fill="var(--color-primary)" d="M234,0c-16.81,0-27.04,6.44-32.53,20.28L151,148h35l44.74-113c0.84-1.92,1.75-2,3.26-2
+              c1.67,0,2.29,0.2,2.89,1.8L280,148h35L266.47,20.32C261.18,6.46,250.76,0,234,0z" data-v-3472bb28=""></path><path fill="var(--color-primary)" d="M468,115c0,2-1,4-4,4c-2.38,0-4.27-1.46-5.42-3.75l-39.97-87.36C413.56,14.07,405.18,0,381.54,0
+              C359.29,0,346,12.67,346,33.89V148h32V35.1c0-2.1,1-4.1,4-4.1c2.26,0,3.85,0.73,5.21,3.75l39.97,87.36
+              c4.76,13.02,13.33,27.89,37.28,27.89c22.26,0,35.54-12.74,35.54-34.09V2h-32V115z" data-v-3472bb28=""></path><rect x="726" y="2" fill="var(--color-primary)" width="32" height="146" data-v-3472bb28=""></rect><path fill="var(--color-primary)" d="M851,116c-12.62,0-18-5-18-18V2h-33v98c0,30,16,48,49.26,48c10.74,0,17.74,0,27.49,0
+              C910,148,926,130,926,100V2h-33v96c0,13-5.38,18-18,18H851z" data-v-3472bb28=""></path><path fill="var(--color-primary)" d="M1128,0c-24.99,0-32.18,21.78-34.32,28.79l-29.42,85.16c-0.25,0.99-1.17,1.07-1.44,1.07
+              c-0.28,0-1.19-0.08-1.49-1.22l-29.35-84.94C1029.82,21.78,1022.99,0,998,0c-20.32,0-32,13.16-32,35v113h32V36
+              c0-1.19,0.56-1.35,0.77-1.43c0.41,0,0.99,0.76,1.31,1.74l29.34,84.92c5.28,17.91,18.57,28.77,33.58,28.77c0,0-0.01,0,0,0
+              c15.37,0,28-11.13,33.19-28.69l29.38-85.05c0.3-0.93,0.88-1.69,1.41-1.7c0.09,0.08,1.02,0.24,1.02,1.43v112h32V35
+              C1160,13.16,1148.32,0,1128,0z" data-v-3472bb28=""></path><g data-v-3472bb28=""><polygon fill="var(--color-primary)" points="696,148 572,2 532,2 591.93,71.98 525,148 566,148 612,95.73 655,148 			" data-v-3472bb28=""></polygon></g><linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="619.6954" y1="43.9214" x2="700.908" y2="7.8269" data-v-3472bb28=""><stop offset="0" style="stop-color:#7C37F5;" data-v-3472bb28=""></stop><stop offset="1" style="stop-color:#BE41EB;" data-v-3472bb28=""></stop></linearGradient><polygon fill="url(#SVGID_1_)" points="642,61 694,2 653.29,2 622,38 		" data-v-3472bb28=""></polygon></g></g>
+        </svg>
+      </div>
   </a>
 </template>
 
@@ -31,6 +31,8 @@
 
 .logo {
   position: relative;
+  width: 160px;
+  --color-primary: var(--vt-c-text-1)
 }
 
 .logo + .text {
